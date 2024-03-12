@@ -1,3 +1,3 @@
 .DS_Store
 .env
-php/src/application/config/database.php
+db/*

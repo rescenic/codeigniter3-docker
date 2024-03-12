@@ -27,7 +27,7 @@ services:
     ports:
       - 3310:3306
     volumes:
-      - db:/var/lib/mysql
+      - ./db:/var/lib/mysql
     networks:
       - sundadigi
 
@@ -43,9 +43,6 @@ services:
         - db
     networks:
       - sundadigi
-
-volumes:
-  db:
 
 networks:
   sundadigi:
