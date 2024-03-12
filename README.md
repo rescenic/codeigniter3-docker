@@ -12,8 +12,8 @@ docker-compose up -d
 
 ## Container 
 
-- **PHPMyAdmin** is available at `http://localhost:8080`
-- **CodeIgniter** is available at `http://localhost:7700`
+- **PHPMyAdmin** is available at `http://localhost:8082`
+- **CodeIgniter** is available at `http://localhost:7710`
 - **MySQL** is available at port `3310`
 
 
